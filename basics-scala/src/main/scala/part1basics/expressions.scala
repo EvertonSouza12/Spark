@@ -47,5 +47,4 @@ object expressions extends App {
     42
   }
   println(someOtherValue)
-
 }
