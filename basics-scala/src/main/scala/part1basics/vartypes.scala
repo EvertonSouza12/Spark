@@ -12,7 +12,7 @@ object vartypes extends App {
   println(anotherString)
 
   val aboolean: Boolean = true
-  val aChar: Char = "x"
+  val aChar: Char = 'x'
   val aInt: Int = 2
   val aShort: Short = 4613
   val aLong: Long = 2312312343242L
