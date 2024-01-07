@@ -10,9 +10,9 @@ object expressions extends App {
   println(1 == x)
   println(!(1 == x))
 
-  var aVarable = 2
-  aVarable += 3 // -= *= /=
-  println(aVarable)
+  var aVariable = 2
+  aVariable += 3 // -= *= /=
+  println(aVariable)
 
   // Instructions (DO) vs Expressions (VALUE)
   val aCondition = true
