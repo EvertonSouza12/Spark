@@ -8,9 +8,6 @@ from datetime import timedelta
 
 load_dotenv()
 
-dias_retroativos = 30
-hoje = datetime.datetime.now()
-start = hoje - timedelta(days = dias_retroativos)
 end = datetime.datetime.now()
 start_date = start.strftime('%Y-%m-%d')
 end_date = end.strftime('%Y-%m-%d')
