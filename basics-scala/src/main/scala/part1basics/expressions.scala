@@ -26,7 +26,7 @@ object expressions extends App {
     i += 1
   }
 
-  val aWeirdValue = (aVarable = 3) // Unit === void
+  val aWeirdValue = (aVariable = 3) // Unit === void
   println(aWeirdValue)
 
   val aCodeBlock = {
