@@ -14,7 +14,7 @@ end_date = end.strftime('%Y-%m-%d')
 
 url = ''
 headers = {
-        'Authorization': ,
+        'Authorization': load_dotenv[API_KEY],
         'Accept': 'application/json'
     }
 

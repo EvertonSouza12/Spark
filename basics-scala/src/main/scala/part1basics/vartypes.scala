@@ -11,6 +11,9 @@ object vartypes extends App {
   println(aString)
   println(anotherString)
 
+  var teste  = "Everton"
+  println(teste)
+
   val aboolean: Boolean = true
   val aChar: Char = 'x'
   val aInt: Int = 2
